@@ -1,6 +1,4 @@
 import mongoose, { mongo } from "mongoose";
-import Product from './../../frontend/src/components/Product';
-
 const reviewSchema = mongoose.Schema({
     user: {
         type: mongoose.Schema.Types.ObjectId,
